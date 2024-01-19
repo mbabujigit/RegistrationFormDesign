@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="registration-form">
+          <h1>Register</h1>
+        <div>
+            <label for="fname">First Name</label> <br/>
+            <input class="form-control" placeholder="Enter first name" type="text">
+        </div>
+        <div>
+            <label for="lname">Last Name</label><br/>
+            <input class="form-control" placeholder="Enter last name" type="text">
+        </div>
+        <div>
+            <label for="password">Password</label><br/>
+            <input class="form-control" placeholder="Enter password" type="password">
+        </div>
+        <div>
+            <label for="age">Age</label><br/>
+            <input class="form-control" placeholder="Enter age" type="number">
+        </div>        
+        <div>
+            <label for="dob">Date of Birth</label><br/>
+            <input class="form-control" placeholder="Enter dob" type="date">
+        </div>
+        <div>
+            <label for="gender">Gender</label><br/>
+
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" /> Female
+            <input type="radio" name="gender" /> Others
+        </div>
+        <div>
+            <label for="message">About</label><br/>
+            <textarea class="form-control" name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    </div>
+    </body>
+
+</html>

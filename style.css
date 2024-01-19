@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(228, 226, 226, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #555;
+  }
+  
+  .form-control {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial,sans-serif;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
